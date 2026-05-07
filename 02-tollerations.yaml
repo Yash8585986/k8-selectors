@@ -8,8 +8,8 @@ spec:
     image: nginx
   nodeSelector:
     project: roboshop
-    tolerations:
-      - key: "project"
-        operator: "Equal"
-        value: "roboshop"
-        effect: "NoExecute"
+  tolerations:
+  - key: "project"
+    operator: "Equal"
+    value: "roboshop"
+    effect: "NoExecute"
